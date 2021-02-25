@@ -8,5 +8,8 @@ TODO
 ## :bulb: How to use it?
 TODO
 
+## :question: How does it work?
+TODO
+
 ## :newspaper: Used data sources 
 TODO
