@@ -18,7 +18,7 @@ Data sources are sraped via Python from various sources, then uploaded via Googl
 - Alcohol consumption per capita: https://data.worldbank.org/
 - Cause of death, by injury (% of total): https://data.worldbank.org/
 - Mortality caused by road traffic injury (per 100,000 people): https://data.worldbank.org/
-- World hapinnes: https://www.kaggle.com/unsdsn/world-happiness?select=2019.csv
+- World happiness: https://www.kaggle.com/unsdsn/world-happiness?select=2019.csv
 - Dringin age limit: https://en.wikipedia.org/wiki/Legal_drinking_age
 - Drunk driving limit: https://en.wikipedia.org/wiki/Drunk_driving_law_by_country
 
