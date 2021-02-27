@@ -1,49 +1,40 @@
-,id,iso2Code,name,capitalCity,"Total alcohol consumption per capita, female (liters of pure alcohol, projected estimates, male 15+ years of age) ","Total alcohol consumption per capita, male (liters of pure alcohol, projected estimates, male 15+ years of age) "
-0,ALB,AL,Albania,Tirane,2.68,11.63
-1,AND,AD,Andorra,Andorra la Vella,5.19,17.17
-2,AUT,AT,Austria,Vienna,5.77,18.49
-3,BEL,BE,Belgium,Brussels,5.27,17.15
-4,BGR,BG,Bulgaria,Sofia,5.68,20.17
-5,BIH,BA,Bosnia and Herzegovina,Sarajevo,2.7,11.83
-6,BLR,BY,Belarus,Minsk,5.38,18.71
-7,CHE,CH,Switzerland,Bern,5.6,17.65
-8,CHI,JG,Channel Islands,,,
-9,CYP,CY,Cyprus,Nicosia,4.76,16.92
-10,CZE,CZ,Czech Republic,Prague,6.99,22.28
-11,DEU,DE,Germany,Berlin,6.21,19.9
-12,DNK,DK,Denmark,Copenhagen,4.86,15.78
-13,ESP,ES,Spain,Madrid,5.77,20.07
-14,EST,EE,Estonia,Tallinn,4.35,14.96
-15,FIN,FI,Finland,Helsinki,5.05,16.77
-16,FRA,FR,France,Paris,5.83,19.18
-17,FRO,FO,Faroe Islands,Torshavn,,
-18,GBR,GB,United Kingdom,London,5.39,17.76
-19,GIB,GI,Gibraltar,,,
-20,GRC,GR,Greece,Athens,4.46,16.17
-21,HRV,HR,Croatia,Zagreb,4.22,14.73
-22,HUN,HU,Hungary,Budapest,5.38,18.1
-23,IMN,IM,Isle of Man,Douglas,,
-24,IRL,IE,Ireland,Dublin,6.38,19.62
-25,ISL,IS,Iceland,Reykjavik,4.34,13.9
-26,ITA,IT,Italy,Rome,3.52,12.46
-27,LIE,LI,Liechtenstein,Vaduz,,
-28,LTU,LT,Lithuania,Vilnius,6.56,21.29
-29,LUX,LU,Luxembourg,Luxembourg,6.36,19.51
-30,LVA,LV,Latvia,Riga,6.11,20.92
-31,MCO,MC,Monaco,Monaco,,
-32,MDA,MD,Moldova,Chisinau,5.27,18.29
-33,MKD,MK,North Macedonia,Skopje,2.44,9.93
-34,MNE,ME,Montenegro,Podgorica,4.97,18.3
-35,NLD,NL,Netherlands,Amsterdam,4.51,14.83
-36,NOR,NO,Norway,Oslo,3.58,11.2
-37,POL,PL,Poland,Warsaw,5.58,18.41
-38,PRT,PT,Portugal,Lisbon,5.56,19.41
-39,ROU,RO,Romania,Bucharest,5.45,18.57
-40,SMR,SM,San Marino,San Marino,,
-41,SRB,RS,Serbia,Belgrade,3.89,13.93
-42,SVK,SK,Slovak Republic,Bratislava,5.35,17.37
-43,SVN,SI,Slovenia,Ljubljana,5.6,18.36
-44,SWE,SE,Sweden,Stockholm,4.21,13.69
-45,TUR,TR,Turkey,Ankara,0.56,3.62
-46,UKR,UA,Ukraine,Kiev,3.65,13.96
-47,XKX,XK,Kosovo,Pristina,,
+,id,iso2Code,name,capitalCity,"Total alcohol consumption per capita, female (liters of pure alcohol, projected estimates, male 15+ years of age) ","Total alcohol consumption per capita, male (liters of pure alcohol, projected estimates, male 15+ years of age) ","Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age) ","Cause of death, by injury (% of total)","Mortality caused by road traffic injury (per 100,000 people)"
+0,ALB,AL,Albania,Tirane,2.68,11.63,7.17,3.03599641131377,13.6
+2,AUT,AT,Austria,Vienna,5.77,18.49,11.96,5.44531462854727,5.2
+3,BEL,BE,Belgium,Brussels,5.27,17.15,11.08,6.12096377150522,5.8
+4,BGR,BG,Bulgaria,Sofia,5.68,20.17,12.65,2.47491821960442,10.2
+5,BIH,BA,Bosnia and Herzegovina,Sarajevo,2.7,11.83,7.15,3.76658780271476,15.7
+6,BLR,BY,Belarus,Minsk,5.38,18.71,11.45,5.71450571457612,8.9
+7,CHE,CH,Switzerland,Bern,5.6,17.65,11.53,5.69826863764251,2.7
+9,CYP,CY,Cyprus,Nicosia,4.76,16.92,10.81,5.3466254345444,5.1
+10,CZE,CZ,Czech Republic,Prague,6.99,22.28,14.45,4.77548092277927,5.9
+11,DEU,DE,Germany,Berlin,6.21,19.9,12.91,4.64167927814672,4.1
+12,DNK,DK,Denmark,Copenhagen,4.86,15.78,10.26,3.51602038320691,4.0
+13,ESP,ES,Spain,Madrid,5.77,20.07,12.72,3.62210162451938,4.1
+14,EST,EE,Estonia,Tallinn,4.35,14.96,9.23,4.22251355239039,6.1
+15,FIN,FI,Finland,Helsinki,5.05,16.77,10.78,5.6430073668987,4.7
+16,FRA,FR,France,Paris,5.83,19.18,12.33,6.35586909299778,5.5
+18,GBR,GB,United Kingdom,London,5.39,17.76,11.45,3.68614740758269,3.1
+20,GRC,GR,Greece,Athens,4.46,16.17,10.18,3.9092271407784,9.2
+21,HRV,HR,Croatia,Zagreb,4.22,14.73,9.23,5.06513555428123,8.1
+22,HUN,HU,Hungary,Budapest,5.38,18.1,11.35,4.13719063874997,7.8
+24,IRL,IE,Ireland,Dublin,6.38,19.62,12.88,3.9095342520665,4.1
+25,ISL,IS,Iceland,Reykjavik,4.34,13.9,9.12,5.56091161354251,6.6
+26,ITA,IT,Italy,Rome,3.52,12.46,7.84,3.85670624309975,5.6
+28,LTU,LT,Lithuania,Vilnius,6.56,21.29,13.22,5.43139588283383,8.0
+29,LUX,LU,Luxembourg,Luxembourg,6.36,19.51,12.94,6.04676085887135,6.3
+30,LVA,LV,Latvia,Riga,6.11,20.92,12.77,4.9656268353408,9.3
+32,MDA,MD,Moldova,Chisinau,5.27,18.29,11.43,6.04526188221804,9.7
+33,MKD,MK,North Macedonia,Skopje,2.44,9.93,6.16,2.58451833357533,6.4
+34,MNE,ME,Montenegro,Podgorica,4.97,18.3,11.47,4.48017883696707,10.7
+35,NLD,NL,Netherlands,Amsterdam,4.51,14.83,9.61,5.76499055099377,3.8
+36,NOR,NO,Norway,Oslo,3.58,11.2,7.41,5.59829045075369,2.7
+37,POL,PL,Poland,Warsaw,5.58,18.41,11.71,4.24088228218582,9.7
+38,PRT,PT,Portugal,Lisbon,5.56,19.41,12.03,4.79371579293751,7.4
+39,ROU,RO,Romania,Bucharest,5.45,18.57,11.74,3.63515880942512,10.3
+41,SRB,RS,Serbia,Belgrade,3.89,13.93,8.75,2.37438662942997,7.4
+42,SVK,SK,Slovak Republic,Bratislava,5.35,17.37,11.14,6.28671780232579,6.1
+43,SVN,SI,Slovenia,Ljubljana,5.6,18.36,11.9,7.35694422198643,6.4
+44,SWE,SE,Sweden,Stockholm,4.21,13.69,8.93,5.03745873904773,2.8
+45,TUR,TR,Turkey,Ankara,0.56,3.62,2.05,4.66807225367062,12.3
+46,UKR,UA,Ukraine,Kiev,3.65,13.96,8.32,5.01101815960154,13.7
