@@ -1,5 +1,6 @@
 import wbdata
 import pandas as pd
+from datetime import datetime
 
 
 def _flatten_column(inpt_dict, column):
@@ -28,5 +29,17 @@ def get_countries():
     countries = countries[(countries['iso2Code'].isin(wanted_countries))]
     return countries
 
-# data = wbdata.get_dataframe({'SE.ADT.LITR.ZS':'Literacy'}, convert_date=True)
-# print(data.head())
+
+def get_alcohol_consumption():
+    m_name = 'Total alcohol consumption per capita, male (liters of pure ' \
+             'alcohol, projected estimates, male 15+ years of age) '
+    f_name = 'Total alcohol consumption per capita, female (liters of pure ' \
+             'alcohol, projected estimates, male 15+ years of age) '
+
+    year = datetime.strptime('2018', '%Y')
+    f_data = wbdata.get_dataframe({'SH.ALC.PCAP.FE.LI': f_name}, data_date=year)
+    m_data = wbdata.get_dataframe({'SH.ALC.PCAP.MA.LI': m_name}, data_date=year)
+
+    data = pd.merge(f_data, m_data, how='left', on=['country'])
+    data['name'] = data.index
+    return data
