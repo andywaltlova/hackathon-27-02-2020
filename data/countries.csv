@@ -7,7 +7,6 @@
 26,BIH,BA,Bosnia and Herzegovina,Sarajevo
 28,BLR,BY,Belarus,Minsk
 45,CHE,CH,Switzerland,Bern
-46,CHI,JG,Channel Islands,
 64,CYP,CY,Cyprus,Nicosia
 65,CZE,CZ,Czech Republic,Prague
 68,DEU,DE,Germany,Berlin
@@ -16,21 +15,16 @@
 92,EST,EE,Estonia,Tallinn
 96,FIN,FI,Finland,Helsinki
 98,FRA,FR,France,Paris
-99,FRO,FO,Faroe Islands,Torshavn
 103,GBR,GB,United Kingdom,London
-106,GIB,GI,Gibraltar,
 111,GRC,GR,Greece,Athens
 121,HRV,HR,Croatia,Zagreb
 123,HUN,HU,Hungary,Budapest
-131,IMN,IM,Isle of Man,Douglas
 134,IRL,IE,Ireland,Dublin
 137,ISL,IS,Iceland,Reykjavik
 139,ITA,IT,Italy,Rome
-160,LIE,LI,Liechtenstein,Vaduz
 166,LTU,LT,Lithuania,Vilnius
 167,LUX,LU,Luxembourg,Luxembourg
 168,LVA,LV,Latvia,Riga
-172,MCO,MC,Monaco,Monaco
 173,MDA,MD,Moldova,Chisinau
 181,MKD,MK,North Macedonia,Skopje
 186,MNE,ME,Montenegro,Podgorica
@@ -39,11 +33,9 @@
 217,POL,PL,Poland,Warsaw
 221,PRT,PT,Portugal,Lisbon
 228,ROU,RO,Romania,Bucharest
-240,SMR,SM,San Marino,San Marino
 242,SRB,RS,Serbia,Belgrade
 249,SVK,SK,Slovak Republic,Bratislava
 250,SVN,SI,Slovenia,Ljubljana
 251,SWE,SE,Sweden,Stockholm
 273,TUR,TR,Turkey,Ankara
 278,UKR,UA,Ukraine,Kiev
-291,XKX,XK,Kosovo,Pristina

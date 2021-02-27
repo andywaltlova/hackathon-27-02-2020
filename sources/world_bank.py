@@ -20,12 +20,11 @@ def get_countries():
     countries = pd.DataFrame(countries)
     countries = countries[['id', 'iso2Code', 'name', 'capitalCity']]
 
-    wanted_countries = ['AL', 'AD', 'AT', 'BY', 'BE', 'BA', 'BG', 'JG', 'HR',
-                        'CY', 'CZ', 'DK', 'EE', 'FO', 'FI', 'FR', 'DE', 'GI',
-                        'GR', 'HU', 'IS', 'IE', 'IM', 'IT', 'XK', 'LV', 'LI',
-                        'LT', 'LU', 'MD', 'MC', 'ME', 'NL', 'MK', 'NO', 'PL',
-                        'PT', 'RO', 'SM', 'RS', 'SK', 'SI', 'ES', 'SE', 'CH',
-                        'TR', 'UA', 'GB']
+    wanted_countries = ['AL', 'AD', 'AT', 'BY', 'BE', 'BA', 'BG', 'HR', 'CY',
+                        'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'GB',
+                        'IS', 'IE', 'IT', 'LV', 'LT', 'LU', 'MD', 'ME', 'NL',
+                        'MK', 'NO', 'PL', 'PT', 'RO', 'RS', 'SK', 'SI', 'ES',
+                        'SE', 'CH', 'TR', 'UA']
     countries = countries[(countries['iso2Code'].isin(wanted_countries))]
     return countries
 
