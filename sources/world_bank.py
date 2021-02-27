@@ -1,5 +1,6 @@
 import wbdata
 import pandas as pd
+import os.path
 from datetime import datetime
 
 
@@ -26,6 +27,7 @@ def get_countries():
                         'MK', 'NO', 'PL', 'PT', 'RO', 'RS', 'SK', 'SI', 'ES',
                         'SE', 'CH', 'TR', 'UA']
     countries = countries[(countries['iso2Code'].isin(wanted_countries))]
+    countries.to_csv(os.path.expanduser('data/countries.csv'))
     return countries
 
 
@@ -45,6 +47,7 @@ def get_alcohol_consumption():
     data = pd.merge(f_data, m_data, how='left', on=['country'])
     data = pd.merge(data, all_d, how='left', on=['country'])
     data['name'] = data.index
+    data.to_csv(os.path.expanduser('data/alcohol.csv'))
     return data
 
 
@@ -53,6 +56,7 @@ def get_cause_of_death_by_injury():
     year = datetime.strptime('2019', '%Y')
     data = wbdata.get_dataframe({'SH.DTH.INJR.ZS': col_name}, data_date=year)
     data['name'] = data.index
+    data.to_csv(os.path.expanduser('data/injuries.csv'))
     return data
 
 
@@ -61,4 +65,5 @@ def get_cause_of_death_by_road_traffic_injury():
     year = datetime.strptime('2016', '%Y')
     data = wbdata.get_dataframe({'SH.STA.TRAF.P5': col_name}, data_date=year)
     data['name'] = data.index
+    data.to_csv(os.path.expanduser('data/rtraffic_injuries.csv'))
     return data
