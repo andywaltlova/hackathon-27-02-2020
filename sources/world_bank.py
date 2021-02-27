@@ -35,11 +35,31 @@ def get_alcohol_consumption():
              'alcohol, projected estimates, male 15+ years of age) '
     f_name = 'Total alcohol consumption per capita, female (liters of pure ' \
              'alcohol, projected estimates, male 15+ years of age) '
+    all_name = 'Total alcohol consumption per capita (liters of pure alcohol, ' \
+               'projected estimates, 15+ years of age) '
 
     year = datetime.strptime('2018', '%Y')
+    all_d = wbdata.get_dataframe({'SH.ALC.PCAP.LI': all_name}, data_date=year)
     f_data = wbdata.get_dataframe({'SH.ALC.PCAP.FE.LI': f_name}, data_date=year)
     m_data = wbdata.get_dataframe({'SH.ALC.PCAP.MA.LI': m_name}, data_date=year)
 
     data = pd.merge(f_data, m_data, how='left', on=['country'])
+    data = pd.merge(data, all_d, how='left', on=['country'])
+    data['name'] = data.index
+    return data
+
+
+def get_cause_of_death_by_injury():
+    col_name = 'Cause of death, by injury (% of total)'
+    year = datetime.strptime('2019', '%Y')
+    data = wbdata.get_dataframe({'SH.DTH.INJR.ZS': col_name}, data_date=year)
+    data['name'] = data.index
+    return data
+
+
+def get_cause_of_death_by_road_traffic_injury():
+    col_name = 'Mortality caused by road traffic injury (per 100,000 people)'
+    year = datetime.strptime('2016', '%Y')
+    data = wbdata.get_dataframe({'SH.STA.TRAF.P5': col_name}, data_date=year)
     data['name'] = data.index
     return data
