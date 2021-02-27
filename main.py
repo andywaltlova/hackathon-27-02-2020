@@ -4,6 +4,7 @@ from sources.world_bank import get_cause_of_death_by_road_traffic_injury
 from sources.world_bank import get_cause_of_death_by_injury
 from sources.hapiness_report import get_world_hapiness
 from sources.wikipedia_tables import get_legal_driking_age
+from sources.translations import create_complete_df
 
 import os.path
 import pandas as pd
@@ -18,6 +19,7 @@ def fill_na_mean(df):
 
 
 SHEET_ID = '1tKdtPdbDPfQNmaBYv1l0SbUUEA_7rzt_BMAnHcJhHqo'
+SHEET_ID_trans = '1KLoVcnGxeAfPP2z8s71VNx_g9h1Rv22rXdIxp-VQaos'
 
 if __name__ == '__main__':
     service = auth()
@@ -32,6 +34,9 @@ if __name__ == '__main__':
     # Kaggle
     hapiness = get_world_hapiness()
 
+    # Google translation api
+    translation_df = create_complete_df()
+
     # Combined
     data = pd.merge(countries, alcohol, how='left', on=['name'])
     data = pd.merge(data, injuries, how='left', on=['name'])
@@ -44,3 +49,5 @@ if __name__ == '__main__':
     data.to_csv(os.path.expanduser('data/data.csv'))
 
     write_df(service, SHEET_ID, 'A1', data)
+
+    write_df(service, SHEET_ID_trans, 'A1', translation_df)
