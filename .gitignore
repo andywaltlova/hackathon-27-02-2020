@@ -131,3 +131,8 @@ dmypy.json
 # Pycharm and VScode stuff
 .idea/
 .vscode/
+
+# secrets and tokens
+google_credentials.json
+token.pickle
+secrets/
