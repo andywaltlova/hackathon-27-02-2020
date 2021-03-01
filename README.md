@@ -1,6 +1,8 @@
 # Interactive dashboard :beer:
 
-Final dashboard: [link](https://public.tableau.com/profile/veronika.ierna#!/vizhome/Hackathonreport/Vberdovolenej?publish=yes)
+[Final dashboard](https://public.tableau.com/profile/veronika.ierna#!/vizhome/Hackathonreport/Vberdovolenej?publish=yes)
+![image](https://user-images.githubusercontent.com/19702477/109540971-7da35680-7ac3-11eb-873b-7e0d007630eb.png)
+
 
 Project was created during [Czechitas hackathon](https://www.czechitas.cz/en/calendar/event/19996/).
 
@@ -8,7 +10,7 @@ Project was created during [Czechitas hackathon](https://www.czechitas.cz/en/cal
 The dashboard can help you choose your dream vacation! The data available are focused on alcohol and everything related to it.
 
 ## :bulb: How to use it?
-Just select filter on heatmap!
+Just select filter on the heatmap!
 
 ## :question: How does it work?
 Data sources are sraped via Python from various sources, then uploaded via Google Sheets API to google sheet, which is connected to Tableau dashboard.
