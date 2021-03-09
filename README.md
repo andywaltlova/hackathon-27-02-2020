@@ -6,6 +6,8 @@
 
 Project was created during [Czechitas hackathon](https://www.czechitas.cz/en/calendar/event/19996/).
 
+Team: [Andrea Waltlová](https://github.com/andywaltlova), [Veronika Čierna](https://github.com/Veronikacierna108), [Tereza Motalová](https://github.com/TerezaMotalova)
+
 ## :mag: What our dashboard can do for you?
 The dashboard can help you choose your dream vacation! The data available are focused on alcohol and everything related to it.
 
